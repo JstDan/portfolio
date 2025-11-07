@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "title": "Take a look at my portfolio",
+    "titleDescription": "Your proffesional classification goes here",
+    "subtitle": "Short description for yourself would be placed in here.Short description for yourself would be placed in here.Short description for yourself would be placed in here.Short description for yourself would be placed in here.Short description for yourself would be placed in here.Short description for yourself would be placed in here.",
+    "image": "/images/hero-image.png",
+    "buttons": {
+      "buttonFirst": "View Projects",
+      "buttonSecond": "Contact Me"
+    }
+  },
+  "projects": {
+    "projectOne": {
+      "title": "Project One",
+      "description": "A short description of the project would be written here...",
+      "image": "/images/hero-image.png"
+    },
+    "projectTwo": {
+      "title": "Project Two",
+      "description": "A short description of the project would be written here...",
+      "image": "/images/hero-image.png"
+    },
+    "projectThree": {
+      "title": "Project Three",
+      "description": "A short description of the project would be written here...",
+      "image": "/images/hero-image.png"
+    },
+    "projectFour": {
+      "title": "Project Four",
+      "description": "A short description of the project would be written here...",
+      "image": "/images/hero-image.png"
+    },
+    "projectFive": {
+      "title": "Project Five",
+      "description": "A short description of the project would be written here...",
+      "image": "/images/hero-image.png"
+    },
+    "projectSix": {
+      "title": "Project Six",
+      "description": "A short description of the project would be written here...",
+      "image": "/images/hero-image.png"
+    },
+    "projectSeven": {
+      "title": "Project Seven",
+      "description": "A short description of the project would be written here...",
+      "image": "/images/hero-image.png"
+    },
+    "projectEight": {
+      "title": "Project Eight",
+      "description": "A short description of the project would be written here...",
+      "image": "/images/hero-image.png"
+    },
+    "projectNine": {
+      "title": "Project Nine",
+      "description": "A short description of the project would be written here...",
+      "image": "/images/hero-image.png"
+    }
+  }
+}

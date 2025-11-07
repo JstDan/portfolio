@@ -1,26 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header/Header';
+import Hero from './Components/Hero/Hero';
+import { Container, Box } from '@mui/material';
+import Projects from './Components/MyProjects/myProjects';
+import Contact from './Components/Contact/Contact';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <Box sx={{ backgroundColor: '#282C34' }}>
+      <Container className="App" >
         <Header />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <Box sx={{ display: 'flex', flexDirection: 'column', gap: '5rem' }}>
+          <Hero />
+          <Projects />
+          <Contact />
+        </Box>
+      </Container>
+    </Box >
   );
 }
 
