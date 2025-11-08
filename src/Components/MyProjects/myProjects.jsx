@@ -58,7 +58,7 @@ const Projects = () => {
         <Box sx={{ position: 'relative' }}>
             <Box sx={{ marginBottom: '2rem' }}>
                 <Typography variant='h4' style={{
-                    fontWeight: '600',
+                    fontWeight: '300',
                     textTransform: 'uppercase',
                     color: 'white'
                 }}>Check out my projects</Typography>
