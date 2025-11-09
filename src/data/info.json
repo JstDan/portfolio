@@ -1,6 +1,6 @@
 {
-  "hero": {
-    "title": "Take a look at my portfolio",
+  "aboutme": {
+    "title": "Hi, I'm (your name here)",
     "titleDescription": "Your proffesional classification goes here",
     "subtitle": "Short description for yourself would be placed in here.Short description for yourself would be placed in here.Short description for yourself would be placed in here.Short description for yourself would be placed in here.Short description for yourself would be placed in here.Short description for yourself would be placed in here.",
     "image": "/images/hero-image.png",
@@ -54,6 +54,72 @@
       "title": "Project Nine",
       "description": "A short description of the project would be written here...",
       "image": "/images/hero-image.png"
+    }
+  },
+  "skills": {
+    "skill-1": {
+      "title": "HTML",
+      "image": "/images/Logos/HTML.png"
+    },
+    "skill-2": {
+      "title": "CSS",
+      "image": "/images/Logos/CSS.png"
+    },
+    "skill-3": {
+      "title": "JavaScript",
+      "image": "/images/Logos/JS.png"
+    },
+    "skill-4": {
+      "title": "ReactJS",
+      "image": "/images/Logos/ReactJS.png"
+    },
+    "skill-5": {
+      "title": "JSON",
+      "image": "/images/Logos/JSON.png"
+    },
+    "skill-6": {
+      "title": "MUI",
+      "image": "/images/Logos/MUI.png"
+    },
+    "skill-7": {
+      "title": "GitHub",
+      "image": "/images/Logos/GitHub.png"
+    },
+    "skill-8": {
+      "title": "WordPress",
+      "image": "/images/Logos/WordPress.png"
+    },
+    "skill-9": {
+      "title": "Netlify",
+      "image": "/images/Logos/Netlify.png"
+    },
+    "skill-10": {
+      "title": "Blender",
+      "image": "/images/Logos/Blender.png"
+    },
+    "skill-11": {
+      "title": "Shopify",
+      "image": "/images/Logos/Shopify.png"
+    },
+    "skill-12": {
+      "title": ".Liquid",
+      "image": "/images/Logos/liquid.png"
+    },
+    "skill-13": {
+      "title": "Figma",
+      "image": "/images/Logos/Figma.png"
+    },
+    "skill-14": {
+      "title": "Photoshop",
+      "image": "/images/Logos/Photoshop.png"
+    },
+    "skill-15": {
+      "title": "Illustrator",
+      "image": "/images/Logos/Illustrator.png"
+    },
+    "skill-16": {
+      "title": "AutoCAD",
+      "image": "/images/Logos/AutoCad.png"
     }
   }
 }
