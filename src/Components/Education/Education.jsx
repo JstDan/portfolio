@@ -6,7 +6,7 @@ const Education = () => {
             sx={{
                 display: 'flex',
                 flexDirection: 'column',
-                alignItems: 'center', // ✅ centers the cards horizontally
+                alignItems: 'center',
                 gap: '3rem',
             }}>
             <Typography variant='h4' style={{

@@ -1,7 +1,7 @@
 import React from 'react';
-import { Typography, Box } from "@mui/material";
+import { Typography, Box, Button } from "@mui/material";
 
-const ProjectCard = ({ title, description, image }) => {
+const ProjectCard = ({ title, description, image, button }) => {
     return (
         <Box
             sx={{
@@ -15,7 +15,19 @@ const ProjectCard = ({ title, description, image }) => {
                 alignItems: 'center',
                 justifyContent: 'flex-start',
                 padding: '1rem',
-                gap: '0.5rem'
+                gap: '0.5rem',
+                position: 'relative',
+                overflow: 'hidden',
+                '&:hover .slide-up-btn': {
+                    bottom: '1rem',
+                    opacity: 1
+                },
+                '&:hover .hover-overlay': {
+                    opacity: 0.5
+                },
+                '&:hover .slide-up-buttons': {
+                    bottom: 0
+                }
             }}
         >
             <img
@@ -48,7 +60,45 @@ const ProjectCard = ({ title, description, image }) => {
             >
                 {description}
             </Typography>
-        </Box>
+            <Box className="slide-up-buttons" sx={{
+                position: 'absolute',
+                bottom: '-100%',
+                left: 0,
+                width: '100%',
+                display: 'flex',
+                flexDirection: 'row',
+                justifyContent: 'space-between',
+                gap: '1rem',
+                backgroundColor: 'rgba(255, 255, 255, 0.63)',
+                padding: '1rem 1.5rem',
+                transition: 'bottom 0.4s ease'
+            }}>
+                <Button
+                    href={button?.firstButtonLink}
+                    sx={{
+                        width: '10rem',
+                        backgroundColor: '#325CB1',
+                        color: '#fff',
+                        textTransform: 'none',
+                        '&:hover': { backgroundColor: '#082255ff' },
+                        borderRadius: '30px'
+                    }}>
+                    <Typography sx={{ fontWeight: '600' }}>Project</Typography>
+                </Button>
+                <Button
+                    href={button?.secondButtonLink}
+                    sx={{
+                        width: '10rem',
+                        backgroundColor: '#325CB1',
+                        color: '#fff',
+                        textTransform: 'none',
+                        '&:hover': { backgroundColor: '#082255ff' },
+                        borderRadius: '30px'
+                    }}>
+                    <Typography sx={{ fontWeight: '600' }}>Source</Typography>
+                </Button>
+            </Box>
+        </Box >
     );
 };
 

@@ -7,7 +7,7 @@ import {
 } from '@mui/material';
 import info from '../../data/info.json';
 const Aboutme = () => {
-    const { title, titleDescription, subtitle, image, buttons } = info.aboutme
+    const { title, titleDescription, subtitle, image, buttons, email, location } = info.aboutme
     return (
         <Box sx={{ display: 'flex', flexDirection: 'column' }}>
             <Typography variant='h4' style={{
@@ -35,11 +35,11 @@ const Aboutme = () => {
                     <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '0.1rem' }}>
                         <Box sx={{ display: 'flex', justifyContent: 'flex-start', gap: '0.5rem' }}>
                             <Typography sx={{ fontWeight: '300', color: '#2ebdf5ff' }}>Email :</Typography>
-                            <Typography>d.e.mihaylov@gmail.com</Typography>
+                            <Typography>{email}</Typography>
                         </Box>
                         <Box sx={{ display: 'flex', justifyContent: 'flex-start', gap: '0.5rem' }}>
                             <Typography sx={{ fontWeight: '300', color: '#2ebdf5ff' }}>Location :</Typography>
-                            <Typography>Varna / Bulgaria</Typography>
+                            <Typography>{location}</Typography>
                         </Box>
                     </Box>
                     <Box sx={{ display: 'flex', flexDirection: 'row', gap: '2rem' }}>

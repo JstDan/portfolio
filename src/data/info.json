@@ -13,56 +13,121 @@
     "titleDescription": "Your proffesional classification goes here",
     "subtitle": "Short description for yourself would be placed in here.Short description for yourself would be placed in here.Short description for yourself would be placed in here.Short description for yourself would be placed in here.Short description for yourself would be placed in here.Short description for yourself would be placed in here.",
     "image": "/images/hero-image.png",
+    "email": "d.e.mihaylovv@gmail.com",
+    "location": "Varna / Bulgaria",
     "buttons": {
       "buttonFirst": "View Projects",
       "buttonSecond": "Contact Me"
+    }
+  },
+  "experience": {
+    "job-1": {
+      "company": "Job-1 Name",
+      "position": "Position",
+      "period": "June/2025 - Feb/2026"
+    },
+    "job-2": {
+      "company": "Job-2 Name",
+      "position": "Position",
+      "period": "June/2025 - Feb/2026"
+    },
+    "job-3": {
+      "company": "Job-3 Name",
+      "position": "Position",
+      "period": "June/2025 - Feb/2026"
+    },
+    "job-4": {
+      "company": "Job-4 Name",
+      "position": "Position",
+      "period": "June/2025 - Feb/2026"
+    },
+    "job-5": {
+      "company": "Job-5 Name",
+      "position": "Position",
+      "period": "June/2025 - Feb/2026"
     }
   },
   "projects": {
     "projectOne": {
       "title": "Project One",
       "description": "A short description of the project would be written here...",
-      "image": "/images/hero-image.png"
+      "image": "/images/hero-image.png",
+      "button": {
+        "firstButtonLink": "LINK HERE",
+        "secondButtonLink": "LINK HERE"
+      }
     },
     "projectTwo": {
       "title": "Project Two",
       "description": "A short description of the project would be written here...",
-      "image": "/images/hero-image.png"
+      "image": "/images/hero-image.png",
+      "button": {
+        "firstButtonLink": "LINK HERE",
+        "secondButtonLink": "LINK HERE"
+      }
     },
     "projectThree": {
       "title": "Project Three",
       "description": "A short description of the project would be written here...",
-      "image": "/images/hero-image.png"
+      "image": "/images/hero-image.png",
+      "button": {
+        "firstButtonLink": "LINK HERE",
+        "secondButtonLink": "LINK HERE"
+      }
     },
     "projectFour": {
       "title": "Project Four",
       "description": "A short description of the project would be written here...",
-      "image": "/images/hero-image.png"
+      "image": "/images/hero-image.png",
+      "button": {
+        "firstButtonLink": "LINK HERE",
+        "secondButtonLink": "LINK HERE"
+      }
     },
     "projectFive": {
       "title": "Project Five",
       "description": "A short description of the project would be written here...",
-      "image": "/images/hero-image.png"
+      "image": "/images/hero-image.png",
+      "button": {
+        "firstButtonLink": "LINK HERE",
+        "secondButtonLink": "LINK HERE"
+      }
     },
     "projectSix": {
       "title": "Project Six",
       "description": "A short description of the project would be written here...",
-      "image": "/images/hero-image.png"
+      "image": "/images/hero-image.png",
+      "button": {
+        "firstButtonLink": "LINK HERE",
+        "secondButtonLink": "LINK HERE"
+      }
     },
     "projectSeven": {
       "title": "Project Seven",
       "description": "A short description of the project would be written here...",
-      "image": "/images/hero-image.png"
+      "image": "/images/hero-image.png",
+      "button": {
+        "firstButtonLink": "LINK HERE",
+        "secondButtonLink": "LINK HERE"
+      }
     },
     "projectEight": {
       "title": "Project Eight",
       "description": "A short description of the project would be written here...",
-      "image": "/images/hero-image.png"
+      "image": "/images/hero-image.png",
+      "button": {
+        "firstButtonLink": "LINK HERE",
+        "secondButtonLink": "LINK HERE"
+      }
     },
     "projectNine": {
       "title": "Project Nine",
       "description": "A short description of the project would be written here...",
-      "image": "/images/hero-image.png"
+      "image": "/images/hero-image.png",
+      "button": {
+        "firstButtonLink": "LINK HERE",
+        "secondButtonLink": "LINK HERE"
+      }
     }
   },
   "skills": {
