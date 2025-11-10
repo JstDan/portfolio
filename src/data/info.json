@@ -1,4 +1,13 @@
 {
+  "hero": {
+    "name": "(Your name here)",
+    "classification": "(Your classification here)",
+    "image": "/images/avatar.png",
+    "button": {
+      "buttonLabel": "View my CV",
+      "buttonLink": "CV-Link-Here"
+    }
+  },
   "aboutme": {
     "title": "Hi, I'm (your name here)",
     "titleDescription": "Your proffesional classification goes here",

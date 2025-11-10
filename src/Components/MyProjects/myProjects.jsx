@@ -52,7 +52,7 @@ const Projects = () => {
         };
     }, []);
 
-
+    // !!!!!!!!!!!! UPDATE THE BACKGROUND COLOR TO THIS COMBINATION backgroundColor: 'rgba(218,165,32,0.7)', 
 
     return (
         <Box sx={{ position: 'relative' }}>
