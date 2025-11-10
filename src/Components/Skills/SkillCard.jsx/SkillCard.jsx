@@ -4,19 +4,19 @@ const SkillCard = () => {
     return (
         <>
             {Object.values(info.skills).map((skill, index) => (
-
                 < Box
                     key={index}
                     sx={{
                         display: 'flex',
-                        flexDirection: 'column-reverse',
+                        flexDirection: 'column',
                         alignItems: 'center',
+                        justifyContent: 'center',
                         gap: '1rem',
                         width: '100%',
                         aspectRatio: '3/2',
-                        backgroundColor: '#494949ff',
+                        backgroundColor: '#424752ff',
                         borderRadius: '20px',
-                        paddingBottom: '1rem'
+                        py: '1rem'
                     }}
 
                 >
@@ -25,7 +25,7 @@ const SkillCard = () => {
                         src={skill.image}
                         alt={skill.title}
                         style={{
-                            width: '5rem',
+                            width: '4rem',
                         }}
                     />
                 </Box >

@@ -7,21 +7,23 @@ import { Container, Box } from '@mui/material';
 import Projects from './Components/MyProjects/myProjects';
 import Contact from './Components/Contact/Contact';
 import Skills from './Components/Skills/Skills'
+import Education from './Components/Education/Education';
 
 
 function App() {
   return (
-    <Box sx={{ backgroundColor: '#282C34' }}>
+    <Box sx={{ backgroundColor: '#282C34', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <Hero />
       <Header />
-      <Container className="App" >
-        <Box sx={{ display: 'flex', flexDirection: 'column', gap: '5rem' }}>
-          <AboutMe />
-          <Projects />
-          <Contact />
-          <Skills />
-        </Box>
-      </Container>
+      <Box className="App" sx={{ display: 'flex', gap: '4rem', flexDirection: 'column', maxWidth: '1200px', py: '4rem' }}  >
+        <AboutMe />
+        <Education />
+      </Box>
+      <Skills />
+      <Box className="App" sx={{ display: 'flex', gap: '4rem', flexDirection: 'column', maxWidth: '1200px', py: '4rem' }}  >
+        <Projects />
+        <Contact />
+      </Box>
     </Box >
   );
 }

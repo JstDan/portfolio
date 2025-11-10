@@ -9,7 +9,7 @@
     }
   },
   "aboutme": {
-    "title": "Hi, I'm (your name here)",
+    "title": "I'm (your name here)",
     "titleDescription": "Your proffesional classification goes here",
     "subtitle": "Short description for yourself would be placed in here.Short description for yourself would be placed in here.Short description for yourself would be placed in here.Short description for yourself would be placed in here.Short description for yourself would be placed in here.Short description for yourself would be placed in here.",
     "image": "/images/hero-image.png",
@@ -129,6 +129,26 @@
     "skill-16": {
       "title": "AutoCAD",
       "image": "/images/Logos/AutoCad.png"
+    }
+  },
+  "education": {
+    "education-1": {
+      "placeTitle": "Specialized high school of natural sciences and mathematics",
+      "specialty": "Maths / IT / English / Geography",
+      "period": "2016 - 2021",
+      "image": "/images/Logos/ppmg.svg"
+    },
+    "education-2": {
+      "placeTitle": "Technical university of Varna",
+      "specialty": "Bachelor's degree in Industrial Design",
+      "period": "2021 - 2025",
+      "image": "/images/Logos/TU-Varna.png"
+    },
+    "education-3": {
+      "placeTitle": "Technical university of Varna",
+      "specialty": "Master's degree in Industrial Design",
+      "period": "present - 2026",
+      "image": "/images/Logos/TU-Varna.png"
     }
   }
 }

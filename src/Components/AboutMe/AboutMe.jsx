@@ -9,7 +9,7 @@ import info from '../../data/info.json';
 const Aboutme = () => {
     const { title, titleDescription, subtitle, image, buttons } = info.aboutme
     return (
-        <Box sx={{ display: 'flex', flexDirection: 'column', paddingTop: '1rem', }}>
+        <Box sx={{ display: 'flex', flexDirection: 'column' }}>
             <Typography variant='h4' style={{
                 fontWeight: '300',
                 textTransform: 'uppercase',

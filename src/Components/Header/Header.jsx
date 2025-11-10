@@ -25,10 +25,10 @@ const Header = () => {
                             justifyContent: 'space-between',
                             alignItems: 'center',
                             paddingX: '1rem',
-                        }}
-                    >
+                        }}>
                         <Typography
                             variant="h5"
+
                             sx={{
                                 color: 'white',
                                 fontWeight: 'bold',
@@ -61,7 +61,7 @@ const Header = () => {
             </AppBar>
 
             {/* Spacer to offset the fixed header height */}
-            <Toolbar />
+
         </>
     );
 };
