@@ -45,6 +45,11 @@
       "company": "Job-5 Name",
       "position": "Position",
       "period": "June/2025 - Feb/2026"
+    },
+    "job-6": {
+      "company": "Job-6 Name",
+      "position": "Position",
+      "period": "June/2025 - Feb/2026"
     }
   },
   "projects": {
