@@ -195,15 +195,7 @@
         "firstButtonLink": "LINK HERE",
         "secondButtonLink": "LINK HERE"
       }
-    },
-    "projectNine": {
-      "title": "Project Nine",
-      "description": "A short description of the project would be written here...",
-      "image": "/images/Projects/VestimentaLux.jpeg",
-      "button": {
-        "firstButtonLink": "LINK HERE",
-        "secondButtonLink": "LINK HERE"
-      }
     }
   }
+}
 }
