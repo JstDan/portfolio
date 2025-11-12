@@ -17,11 +17,14 @@ const Hero = () => {
                 display: 'flex',
                 justifyContent: 'space-between',
                 alignItems: 'center',
-                flexDirection: 'row',
+                flexDirection: {
+                    xs: 'column',
+                    sm: 'row',
+                },
                 gap: '10%'
             }}>
                 <Box sx={{ width: '45%', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'center', gap: '0.7rem', marginLeft: '3rem' }}>
-                    <Typography sx={{ fontSize: '2rem', fontWeight: '600', textAlign: 'left', color: 'white' }}>Hi there,</Typography>
+                    <Typography sx={{ fontSize: '2rem', fontWeight: '600', textAlign: 'left', color: 'white' }}>Welcome to my portofolio,</Typography>
                     <Typography sx={{ fontSize: '2rem', fontWeight: '600', textAlign: 'left', color: 'white' }}>I'm {name}</Typography>
                     <Typography sx={{ fontSize: '1.5rem', fontWeight: '600', textAlign: 'left', color: 'white' }}>{classification}</Typography>
                     <Button sx={{
@@ -38,7 +41,7 @@ const Hero = () => {
                     </Button>
                 </Box>
                 <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '45%' }}>
-                    <img style={{ width: '70%' }} src={image} alt='Avatar Image' />
+                    <img style={{ width: '65%', borderRadius: '50%' }} src={image} alt='Avatar Image' />
                 </Box>
             </Box >
         </Box>

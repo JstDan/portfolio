@@ -15,7 +15,7 @@ const ProjectCard = ({ title, description, image, button }) => {
                 alignItems: 'center',
                 justifyContent: 'flex-start',
                 padding: '1rem',
-                gap: '0.5rem',
+                gap: '0.7rem',
                 position: 'relative',
                 overflow: 'hidden',
                 '&:hover .slide-up-btn': {
@@ -34,32 +34,34 @@ const ProjectCard = ({ title, description, image, button }) => {
                 src={image}
                 style={{
                     width: '100%',
-                    height: '70%',
+                    height: 'auto',
                     borderRadius: '15px',
                     objectFit: 'cover',
                 }}
             />
-            <Typography variant="h6" sx={{
-                color: 'white',
-                width: '90%',
-                textAlign: 'left'
-            }}>
-                {title}
-            </Typography>
-            <Typography
-                variant="body2"
-                sx={{
-                    color: 'gray',
-                    textAlign: 'center',
+            <Box>
+                <Typography variant="h6" sx={{
+                    color: 'white',
                     width: '90%',
-                    wordWrap: 'break-word',
-                    whiteSpace: 'normal',
-                    overflow: 'hidden',
                     textAlign: 'left'
-                }}
-            >
-                {description}
-            </Typography>
+                }}>
+                    {title}
+                </Typography>
+                <Typography
+                    variant="body2"
+                    sx={{
+                        color: 'gray',
+                        textAlign: 'center',
+                        width: '90%',
+                        wordWrap: 'break-word',
+                        whiteSpace: 'normal',
+                        overflow: 'hidden',
+                        textAlign: 'left'
+                    }}
+                >
+                    {description}
+                </Typography>
+            </Box>
             <Box className="slide-up-buttons" sx={{
                 position: 'absolute',
                 bottom: '-100%',

@@ -1,18 +1,18 @@
 {
   "hero": {
-    "name": "(Your name here)",
-    "classification": "(Your classification here)",
-    "image": "/images/avatar.png",
+    "name": "Daniel Mihaylov",
+    "classification": "Front-end dev/ UX-UI Designer",
+    "image": "/images/profileImage.jpeg",
     "button": {
       "buttonLabel": "View my CV",
       "buttonLink": "CV-Link-Here"
     }
   },
   "aboutme": {
-    "title": "I'm (your name here)",
-    "titleDescription": "Your proffesional classification goes here",
-    "subtitle": "Short description for yourself would be placed in here.Short description for yourself would be placed in here.Short description for yourself would be placed in here.Short description for yourself would be placed in here.Short description for yourself would be placed in here.Short description for yourself would be placed in here.",
-    "image": "/images/hero-image.png",
+    "title": "I'm Daniel Mihaylov",
+    "titleDescription": "Front-end developer and UX-UI Designer",
+    "subtitle": "I'm 23 years old UX/UI Designer and Front-end Developer, graduated Industrial designer in Technical university of Varna and now I'm studying my master's degree at the same university! Currently I work as Web designer and developer and I'm using softwares from Adobe cloud, Figma, Shoppify and Wordpress. I also code on HTML/CSS/JS(with ReactJS)/.liquid.",
+    "image": "/images/avatar.png",
     "email": "d.e.mihaylovv@gmail.com",
     "location": "Varna / Bulgaria",
     "buttons": {
@@ -22,117 +22,39 @@
   },
   "experience": {
     "job-1": {
-      "company": "Job-1 Name",
-      "position": "Position",
-      "period": "June/2025 - Feb/2026"
+      "company": "ART CITY STUDIO",
+      "position": "Web Designer",
+      "period": "June/2025 - present"
     },
     "job-2": {
-      "company": "Job-2 Name",
-      "position": "Position",
-      "period": "June/2025 - Feb/2026"
+      "company": "LAZUR",
+      "position": "INTERIOR DESIGNER",
+      "period": "May/2025 - July/2025"
     },
     "job-3": {
-      "company": "Job-3 Name",
-      "position": "Position",
-      "period": "June/2025 - Feb/2026"
-    },
-    "job-4": {
-      "company": "Job-4 Name",
-      "position": "Position",
-      "period": "June/2025 - Feb/2026"
-    },
-    "job-5": {
-      "company": "Job-5 Name",
-      "position": "Position",
-      "period": "June/2025 - Feb/2026"
-    },
-    "job-6": {
-      "company": "Job-6 Name",
-      "position": "Position",
-      "period": "June/2025 - Feb/2026"
+      "company": "WILD ART",
+      "position": "Graphic Designer - internship",
+      "period": "Nov/2022 - Feb/2022"
     }
   },
-  "projects": {
-    "projectOne": {
-      "title": "Project One",
-      "description": "A short description of the project would be written here...",
-      "image": "/images/hero-image.png",
-      "button": {
-        "firstButtonLink": "LINK HERE",
-        "secondButtonLink": "LINK HERE"
-      }
+  "education": {
+    "education-1": {
+      "placeTitle": "Specialized high school of natural sciences and mathematics",
+      "specialty": "Maths / IT / English / Geography",
+      "period": "2016 - 2021",
+      "image": "/images/Logos/ppmg.svg"
     },
-    "projectTwo": {
-      "title": "Project Two",
-      "description": "A short description of the project would be written here...",
-      "image": "/images/hero-image.png",
-      "button": {
-        "firstButtonLink": "LINK HERE",
-        "secondButtonLink": "LINK HERE"
-      }
+    "education-2": {
+      "placeTitle": "Technical university of Varna",
+      "specialty": "Bachelor's degree in Industrial Design",
+      "period": "2021 - 2025",
+      "image": "/images/Logos/TU-Varna.png"
     },
-    "projectThree": {
-      "title": "Project Three",
-      "description": "A short description of the project would be written here...",
-      "image": "/images/hero-image.png",
-      "button": {
-        "firstButtonLink": "LINK HERE",
-        "secondButtonLink": "LINK HERE"
-      }
-    },
-    "projectFour": {
-      "title": "Project Four",
-      "description": "A short description of the project would be written here...",
-      "image": "/images/hero-image.png",
-      "button": {
-        "firstButtonLink": "LINK HERE",
-        "secondButtonLink": "LINK HERE"
-      }
-    },
-    "projectFive": {
-      "title": "Project Five",
-      "description": "A short description of the project would be written here...",
-      "image": "/images/hero-image.png",
-      "button": {
-        "firstButtonLink": "LINK HERE",
-        "secondButtonLink": "LINK HERE"
-      }
-    },
-    "projectSix": {
-      "title": "Project Six",
-      "description": "A short description of the project would be written here...",
-      "image": "/images/hero-image.png",
-      "button": {
-        "firstButtonLink": "LINK HERE",
-        "secondButtonLink": "LINK HERE"
-      }
-    },
-    "projectSeven": {
-      "title": "Project Seven",
-      "description": "A short description of the project would be written here...",
-      "image": "/images/hero-image.png",
-      "button": {
-        "firstButtonLink": "LINK HERE",
-        "secondButtonLink": "LINK HERE"
-      }
-    },
-    "projectEight": {
-      "title": "Project Eight",
-      "description": "A short description of the project would be written here...",
-      "image": "/images/hero-image.png",
-      "button": {
-        "firstButtonLink": "LINK HERE",
-        "secondButtonLink": "LINK HERE"
-      }
-    },
-    "projectNine": {
-      "title": "Project Nine",
-      "description": "A short description of the project would be written here...",
-      "image": "/images/hero-image.png",
-      "button": {
-        "firstButtonLink": "LINK HERE",
-        "secondButtonLink": "LINK HERE"
-      }
+    "education-3": {
+      "placeTitle": "Technical university of Varna",
+      "specialty": "Master's degree in Industrial Design",
+      "period": "present - 2026",
+      "image": "/images/Logos/TU-Varna.png"
     }
   },
   "skills": {
@@ -201,24 +123,87 @@
       "image": "/images/Logos/AutoCad.png"
     }
   },
-  "education": {
-    "education-1": {
-      "placeTitle": "Specialized high school of natural sciences and mathematics",
-      "specialty": "Maths / IT / English / Geography",
-      "period": "2016 - 2021",
-      "image": "/images/Logos/ppmg.svg"
+  "projects": {
+    "projectOne": {
+      "title": "Animal Hope - Varna",
+      "description": "Animal Adoption Website Design for my final university graduation project, I've created a complete web design for an animal adoption platform. The work included all essential components such as user flows, style guides, low and high-fidelity wireframes, and info-architecture.",
+      "image": "/images/Projects/Animal-Hope-Varna.png",
+      "button": {
+        "firstButtonLink": "https://www.linkedin.com/feed/update/urn:li:activity:7365006558402871297/",
+        "secondButtonLink": "https://lnkd.in/dc9smWYK"
+      }
     },
-    "education-2": {
-      "placeTitle": "Technical university of Varna",
-      "specialty": "Bachelor's degree in Industrial Design",
-      "period": "2021 - 2025",
-      "image": "/images/Logos/TU-Varna.png"
+    "projectTwo": {
+      "title": "Vestimenta Lux",
+      "description": "I’ve been working on a fully interactive e-commerce prototype for luxury clothing, and I’m thrilled to finally showcase it! This project is designed to offer a seamless shopping experience with elegance and functionality at its core.",
+      "image": "/images/Projects/VestimentaLux.png",
+      "button": {
+        "firstButtonLink": "https://www.linkedin.com/feed/update/urn:li:activity:7302425341392830466/",
+        "secondButtonLink": "https://lnkd.in/dUMNs6FM "
+      }
     },
-    "education-3": {
-      "placeTitle": "Technical university of Varna",
-      "specialty": "Master's degree in Industrial Design",
-      "period": "present - 2026",
-      "image": "/images/Logos/TU-Varna.png"
+    "projectThree": {
+      "title": "My Portfolio Site",
+      "description": "Using HTML, CSS, JS(with React framework and its UseState/UseEffects functionalities) and Material UI library,",
+      "image": "/images/Projects/portfolio.png",
+      "button": {
+        "firstButtonLink": "LINK HERE",
+        "secondButtonLink": "https://github.com/JstDan/portfolio"
+      }
+    },
+    "projectFour": {
+      "title": "Walls Calculator",
+      "description": "This is a calculator built with JS that shows walls area, openings area, openings linear(m), Net Area and the waste. I've created it to calculate how much paint would a worker need to paint a speccific room. The page is built with React-Vite",
+      "image": "/images/Projects/reactVite.png",
+      "button": {
+        "firstButtonLink": "https://wallscalculator.netlify.app/",
+        "secondButtonLink": "https://github.com/JstDan/Wall-Calculator"
+      }
+    },
+    "projectFive": {
+      "title": "Project Five",
+      "description": "A short description of the project would be written here...",
+      "image": "/images/hero-image.png",
+      "button": {
+        "firstButtonLink": "LINK HERE",
+        "secondButtonLink": "LINK HERE"
+      }
+    },
+    "projectSix": {
+      "title": "Project Six",
+      "description": "A short description of the project would be written here...",
+      "image": "/images/hero-image.png",
+      "button": {
+        "firstButtonLink": "LINK HERE",
+        "secondButtonLink": "LINK HERE"
+      }
+    },
+    "projectSeven": {
+      "title": "Project Seven",
+      "description": "A short description of the project would be written here...",
+      "image": "/images/hero-image.png",
+      "button": {
+        "firstButtonLink": "LINK HERE",
+        "secondButtonLink": "LINK HERE"
+      }
+    },
+    "projectEight": {
+      "title": "Project Eight",
+      "description": "A short description of the project would be written here...",
+      "image": "/images/hero-image.png",
+      "button": {
+        "firstButtonLink": "LINK HERE",
+        "secondButtonLink": "LINK HERE"
+      }
+    },
+    "projectNine": {
+      "title": "Project Nine",
+      "description": "A short description of the project would be written here...",
+      "image": "/images/Projects/VestimentaLux.jpeg",
+      "button": {
+        "firstButtonLink": "LINK HERE",
+        "secondButtonLink": "LINK HERE"
+      }
     }
   }
 }

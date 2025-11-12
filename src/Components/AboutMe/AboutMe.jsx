@@ -15,13 +15,19 @@ const Aboutme = () => {
                 textTransform: 'uppercase',
                 color: 'white'
             }}>About Me</Typography>
-            <Box sx={{ display: 'flex', alignItems: 'center', flexDirection: 'row', gap: '5rem', height: '50vh' }}>
+            <Box sx={{
+                display: 'flex', alignItems: 'center', flexDirection: {
+                    xs: 'column',   // mobile (0px and up)
+                    sm: 'row',      // small screens (600px and up)
+                }, gap: '5rem', height: '50vh'
+            }}>
                 <Box sx={{ width: '100%' }} >
                     <img
                         src={image}
                         alt="Aboutme"
                         style={{
-                            transform: 'scale(0.8)',
+                            width: '80%',
+                            transform: 'scale(0.7)',
                             objectFit: 'cover',
                             borderRadius: '1rem',
                         }}
@@ -43,8 +49,8 @@ const Aboutme = () => {
                         </Box>
                     </Box>
                     <Box sx={{ display: 'flex', flexDirection: 'row', gap: '2rem' }}>
-                        <Button sx={{ backgroundColor: 'white', width: '10rem', height: '3rem', color: 'black', fontSize: '1rem', fontWeight: 'bold', borderRadius: '2rem' }}>{buttons.buttonFirst}</Button>
-                        <Button sx={{ border: '2px solid white', width: '10rem', height: '3rem', color: 'white', fontSize: '1rem', fontWeight: 'bold', borderRadius: '2rem' }}>{buttons.buttonSecond}</Button>
+                        <Button sx={{ backgroundColor: 'white', width: '12rem', height: '3rem', color: 'black', fontSize: '1rem', fontWeight: 'bold', borderRadius: '2rem' }}>{buttons.buttonFirst}</Button>
+                        <Button sx={{ border: '2px solid white', width: '12rem', height: '3rem', color: 'white', fontSize: '1rem', fontWeight: 'bold', borderRadius: '2rem' }}>{buttons.buttonSecond}</Button>
                     </Box>
                 </Box>
             </Box >

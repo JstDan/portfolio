@@ -34,7 +34,7 @@ const Header = () => {
                                 fontWeight: 'bold',
                             }}
                         >
-                            YOUR NAME
+                            DANIEL'S PORTFOLIO
                         </Typography>
 
                         <Box sx={{ display: 'flex', gap: '1rem' }}>
