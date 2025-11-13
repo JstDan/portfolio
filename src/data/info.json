@@ -4,9 +4,13 @@
     "classification": "Front-end dev/ UX-UI Designer",
     "image": "/images/profileImage.jpeg",
     "button": {
-      "buttonLabel": "View my CV",
-      "buttonLink": "CV-Link-Here"
+      "buttonLabel": "View my CV"
     }
+  },
+  "cv": {
+    "label": "CV",
+    "file": "/files/DanielMihaylovCV.pdf",
+    "color": "inherit"
   },
   "aboutme": {
     "title": "I'm Daniel Mihaylov",
@@ -196,6 +200,10 @@
         "secondButtonLink": "LINK HERE"
       }
     }
+  },
+  "socials": {
+    "linkedin": "https://linkedin.com/in/danielmihaylov",
+    "github": "https://github.com/JstDan",
+    "gmail": "mailto:d.e.mihaylovv@gmail.com"
   }
-}
 }

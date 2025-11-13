@@ -1,32 +1,51 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header/Header';
-import Hero from './Components/Hero/Hero'
+import Hero from './Components/Hero/Hero';
 import AboutMe from './Components/AboutMe/AboutMe';
-import { Container, Box } from '@mui/material';
+import { Box } from '@mui/material';
 import Projects from './Components/MyProjects/myProjects';
 import Contact from './Components/Contact/Contact';
-import Skills from './Components/Skills/Skills'
+import Skills from './Components/Skills/Skills';
 import Education from './Components/Education/Education';
 import Experience from './Components/Experience/Experience';
 
+const sectionWrapperSx = {
+  width: '100%',
+  maxWidth: '1200px',
+  px: { xs: 2, sm: 3 },
+  py: { xs: '3rem', md: '4rem' },
+  display: 'flex',
+  flexDirection: 'column',
+  gap: { xs: '3rem', md: '4rem' },
+  mx: 'auto',
+};
 
 function App() {
   return (
-    <Box sx={{ backgroundColor: '#282C34', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-      <Hero />
+    <Box
+      sx={{
+        backgroundColor: '#282C34',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        width: '100%',
+        minHeight: '100vh',
+        overflowX: 'hidden',
+      }}
+    >
       <Header />
-      <Box className="App" sx={{ display: 'flex', gap: '4rem', flexDirection: 'column', maxWidth: '1200px', py: '4rem' }}  >
+      <Hero />
+      <Box className="App" sx={sectionWrapperSx}>
         <AboutMe />
         <Experience />
         <Education />
       </Box>
       <Skills />
-      <Box className="App" sx={{ display: 'flex', gap: '4rem', flexDirection: 'column', maxWidth: '1200px', py: '4rem' }}  >
+      <Box className="App" sx={sectionWrapperSx}>
         <Projects />
         <Contact />
       </Box>
-    </Box >
+    </Box>
   );
 }
 

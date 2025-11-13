@@ -32,6 +32,7 @@ const ProjectCard = ({ title, description, image, button }) => {
         >
             <img
                 src={image}
+                alt={title}
                 style={{
                     width: '100%',
                     height: 'auto',
@@ -48,15 +49,14 @@ const ProjectCard = ({ title, description, image, button }) => {
                     {title}
                 </Typography>
                 <Typography
-                    variant="body2"
                     sx={{
+                        fontSize: { xs: "0.66rem", md: "0.8rem" },
                         color: 'gray',
-                        textAlign: 'center',
                         width: '90%',
                         wordWrap: 'break-word',
                         whiteSpace: 'normal',
                         overflow: 'hidden',
-                        textAlign: 'left'
+                        textAlign: { xs: "left", md: "left" },
                     }}
                 >
                     {description}

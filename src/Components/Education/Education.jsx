@@ -3,11 +3,13 @@ import EducationCard from './EducationCard/EducationCard';
 const Education = () => {
     return (
         <Box
+            id="education"
             sx={{
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
                 gap: '3rem',
+                width: '100%',
             }}>
             <Typography variant='h4' style={{
                 fontWeight: '300',
@@ -20,7 +22,8 @@ const Education = () => {
                     flexDirection: 'column',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    gap: '3rem',
+                    gap: '2rem',
+                    width: '100%',
                 }}
             >
                 <EducationCard />

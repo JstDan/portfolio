@@ -1,5 +1,5 @@
 import info from '../../../data/info.json';
-import { Box, Typography, Image } from "@mui/material"
+import { Box, Typography } from "@mui/material"
 const SkillCard = () => {
     return (
         <>
@@ -20,7 +20,7 @@ const SkillCard = () => {
                     }}
 
                 >
-                    <Typography variant='h5' sx={{ fontWeight: '500', color: 'white' }}>{skill.title}</Typography>
+                    <Typography sx={{ fontSize: { xs: "2,5rem", md: "1,8rem" }, fontWeight: '500', color: 'white' }}>{skill.title}</Typography>
                     <img
                         src={skill.image}
                         alt={skill.title}

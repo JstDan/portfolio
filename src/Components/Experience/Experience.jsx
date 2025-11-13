@@ -8,17 +8,19 @@ const Experience = () => {
 
     return (
         <Box
+            id="experience"
             sx={{
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
-                py: "4rem",
+                py: { xs: "3.5rem", md: "5rem" },
                 color: "white",
+                width: "100%",
             }}
         >
             <Typography
                 variant="h4"
-                sx={{ fontWeight: 600, textTransform: "uppercase", mb: "3rem" }}
+                sx={{ fontWeight: 600, textTransform: "uppercase", mb: "3rem", textAlign: "center" }}
             >
                 Experience
             </Typography>
@@ -31,6 +33,7 @@ const Experience = () => {
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "center",
+                    px: { xs: 2, sm: 3 },
                 }}
             >
                 <Box
@@ -42,6 +45,7 @@ const Experience = () => {
                         backgroundColor: "#000000ff",
                         left: "50%",
                         transform: "translateX(-50%)",
+                        display: { xs: "none", md: "block" },
                     }}
                 />
 
@@ -52,20 +56,28 @@ const Experience = () => {
                             <Box
                                 sx={{
                                     display: "flex",
-                                    justifyContent:
-                                        side === "left" ? "flex-start" : "flex-end",
+                                    justifyContent: {
+                                        xs: "flex-start",
+                                        md: side === "left" ? "flex-start" : "flex-end",
+                                    },
                                     width: "100%",
-                                    transform: `translateX(${side === "left" ? "-2rem" : "2rem"})`,
+                                    transform: {
+                                        xs: "none",
+                                        md: `translateX(${side === "left" ? "-2rem" : "2rem"})`,
+                                    },
                                     transition: "transform 0.5s ease",
                                     "&:hover": {
-                                        transform: "translateX(0)",
+                                        transform: {
+                                            xs: "none",
+                                            md: "translateX(0)",
+                                        },
                                     },
                                 }}
                             >
                                 <Box
                                     sx={{
                                         position: "relative",
-                                        width: "47.5%",
+                                        width: { xs: "100%", md: "47.5%" },
                                         backgroundColor: "#DAA521",
                                         p: "1.5rem",
                                         borderRadius: "12px",
@@ -90,9 +102,9 @@ const Experience = () => {
                                             color: "#DAA521",
                                             width: "30px",
                                             height: "30px",
-                                            display: "flex",
                                             alignItems: "center",
                                             justifyContent: "center",
+                                            display: { xs: "none", md: "flex" },
                                         }}
                                     >
                                         <PlayArrowIcon fontSize="small" sx={{ backgroundColor: 'transperant', transform: 'scale(2)' }} />
@@ -101,16 +113,17 @@ const Experience = () => {
                             </Box>
                             <Box
                                 sx={{
-                                    position: "absolute",
-                                    top: "30%",
-                                    left: "50%",
-                                    transform: "translate(-50%, -50%)",
+                                    position: { xs: "static", md: "absolute" },
+                                    mt: { xs: "1rem", md: 0 },
+                                    top: { md: "30%" },
+                                    left: { md: "50%" },
+                                    transform: { md: "translate(-50%, -50%)" },
                                     backgroundColor: "#DAA521",
                                     border: "2px solid #ffffffff",
                                     borderRadius: "50%",
                                     width: "35px",
                                     height: "35px",
-                                    display: "flex",
+                                    display: { xs: "none", md: "flex" },
                                     alignItems: "center",
                                     justifyContent: "center",
                                     zIndex: 2,

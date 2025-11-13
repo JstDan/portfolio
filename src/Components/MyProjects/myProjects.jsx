@@ -9,13 +9,12 @@ import { Box, Typography, IconButton } from "@mui/material";
 
 const Projects = () => {
     const scrollReff = useRef(null);
-    const [isScrolledRight, setIsScrolledRight] = useState(false);
     const [showLeftArrow, setShowLeftArrow] = useState(false);
     const [showRightArrow, setShowRightArrow] = useState(true);
 
     const scrollHandler = (direction) => {
         if (!scrollReff.current) return;
-        const scrollAmount = 1000;
+        const scrollAmount = window.innerWidth < 768 ? 270 : 1000;
 
         if (direction === 'right') {
             scrollReff.current.scrollLeft += scrollAmount;
@@ -26,13 +25,14 @@ const Projects = () => {
                 setShowLeftArrow(false);
             }
         }
+
         const maxScrollLeft = scrollReff.current.scrollWidth - scrollReff.current.clientWidth;
         if (scrollReff.current.scrollLeft >= maxScrollLeft) {
             setShowRightArrow(false);
         } else {
             setShowRightArrow(true);
         }
-    }
+    };
 
     useEffect(() => {
         const el = scrollReff.current;
@@ -55,7 +55,7 @@ const Projects = () => {
     // !!!!!!!!!!!! UPDATE THE BACKGROUND COLOR TO THIS COMBINATION backgroundColor: 'rgba(218,165,32,0.7)', 
 
     return (
-        <Box sx={{ position: 'relative' }}>
+        <Box id="projects" sx={{ position: 'relative' }}>
             <Box sx={{ marginBottom: '2rem' }}>
                 <Typography variant='h4' style={{
                     fontWeight: '300',
