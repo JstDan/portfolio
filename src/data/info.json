@@ -15,7 +15,7 @@
   "aboutme": {
     "title": "I'm Daniel Mihaylov",
     "titleDescription": "Front-end developer and UX-UI Designer",
-    "subtitle": "I'm 23 years old UX/UI Designer and Front-end Developer, graduated Industrial designer in Technical university of Varna and now I'm studying my master's degree at the same university! Currently I work as Web designer and developer and I'm using softwares from Adobe cloud, Figma, Shoppify and Wordpress. I also code on HTML/CSS/JS(with ReactJS)/.liquid.",
+    "subtitle": "I'm 23 years old UX/UI Designer and Front-end Developer, graduated Industrial designer in Technical university of Varna and now I'm studying my master's degree at the same university! Currently I work as Web designer and developer and I'm using software from Adobe cloud, Figma, Shoppify and Wordpress. I also code on HTML/CSS/JS(with ReactJS)/.liquid.",
     "image": "/images/avatar.png",
     "email": "d.e.mihaylovv@gmail.com",
     "location": "Varna / Bulgaria",
@@ -57,7 +57,7 @@
     "education-3": {
       "placeTitle": "Technical university of Varna",
       "specialty": "Master's degree in Industrial Design",
-      "period": "present - 2026",
+      "period": "2025 - present",
       "image": "/images/Logos/TU-Varna.png"
     }
   },
@@ -202,7 +202,7 @@
     }
   },
   "socials": {
-    "linkedin": "https://linkedin.com/in/danielmihaylov",
+    "linkedin": "https://www.linkedin.com/in/daniel-mihaylov-279188301/",
     "github": "https://github.com/JstDan",
     "gmail": "mailto:d.e.mihaylovv@gmail.com"
   }
