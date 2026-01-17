@@ -3,7 +3,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ProjectCard from './ProjectCard/projectCard';
 import info from '../../data/info.json';
-import { Box, Typography, IconButton } from "@mui/material";
+import { Box, Typography, IconButton, Button } from "@mui/material";
 
 
 
@@ -11,6 +11,25 @@ const Projects = () => {
     const scrollReff = useRef(null);
     const [showLeftArrow, setShowLeftArrow] = useState(false);
     const [showRightArrow, setShowRightArrow] = useState(true);
+    const filterOptions = ["UX/UI Design", "Software Development"];
+    const [selectedFilters, setSelectedFilters] = useState(new Set(filterOptions));
+
+    const toggleFilter = (filter) => {
+        setSelectedFilters((prev) => {
+            const next = new Set(prev);
+            if (next.has(filter)) {
+                next.delete(filter);
+            } else {
+                next.add(filter);
+            }
+            return next.size === 0 ? new Set(filterOptions) : next;
+        });
+    };
+
+    const filteredProjects = Object.values(info.projects).filter((project) => {
+        if (!project.type) return true;
+        return selectedFilters.has(project.type);
+    });
 
     const scrollHandler = (direction) => {
         if (!scrollReff.current) return;
@@ -62,6 +81,31 @@ const Projects = () => {
                     textTransform: 'uppercase',
                     color: 'white'
                 }}>Check out my projects</Typography>
+                <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', mt: '1rem' }}>
+                    {filterOptions.map((option) => {
+                        const active = selectedFilters.has(option);
+                        return (
+                            <Button
+                                key={option}
+                                variant={active ? "contained" : "outlined"}
+                                color="inherit"
+                                onClick={() => toggleFilter(option)}
+                                sx={{
+                                    color: active ? 'black' : 'white',
+                                    backgroundColor: active ? 'white' : 'transparent',
+                                    borderRadius: '20px',
+                                    borderColor: 'white',
+                                    textTransform: 'none',
+                                    fontWeight: 700,
+                                    px: '1rem',
+                                    py: '0.5rem'
+                                }}
+                            >
+                                {option}
+                            </Button>
+                        );
+                    })}
+                </Box>
             </Box>
             <Box
                 ref={scrollReff}
@@ -78,15 +122,20 @@ const Projects = () => {
                     '&::-webkit-scrollbar': { display: 'none' }
                 }}
             >
-                {Object.values(info.projects).map((project, index) => (
-                    <ProjectCard
-                        key={index}
-                        title={project.title}
-                        description={project.description}
-                        image={project.image}
-                        button={project.button}
-                    />
-                ))}
+                {filteredProjects.map((project, index) => {
+                    const imageSrc = project.image?.startsWith('http')
+                        ? project.image
+                        : `${process.env.PUBLIC_URL}${project.image?.startsWith('/') ? '' : '/'}${project.image || ''}`;
+                    return (
+                        <ProjectCard
+                            key={`${project.title}-${index}`}
+                            title={project.title}
+                            description={project.description}
+                            image={imageSrc}
+                            button={project.button}
+                        />
+                    );
+                })}
             </Box>
             {showRightArrow && (
                 <IconButton

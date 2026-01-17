@@ -27,26 +27,29 @@
   "experience": {
     "job-1": {
       "company": "ART CITY STUDIO",
-      "position": "Web Designer",
-      "period": "June/2025 - present"
+      "position": "Web Dev & Designer",
+      "period": "June/2025 - present",
+      "description": "Creating visual content for websites, social networks, online stores, emails and digital campaigns all manage by agile methodology. Development of graphic elements, banners, headers, animations, mockups, advertising visions and product visualizations. Work on the design of web interfaces (UX/UI). Photo processing preparation for online publications and advertising. Maintaining and developing visual brand identity, adhering to corporate guidelines for style and consistency. Website optimization for better user experience and SEO. Close collaboration with web team, marketing team, grpahic designers, illustrators, project manager in the implementation of online campaigns, new product lines and promotions"
     },
     "job-2": {
       "company": "LAZUR",
       "position": "INTERIOR DESIGNER",
-      "period": "May/2025 - July/2025"
+      "period": "May/2025 - July/2025",
+      "description": "As Interior designer at Lazur, I was responsible for creating functional and aesthetically pleasing interior spaces that met the needs and preferences of clients. My duties included conceptualizing and developing design ideas, selecting materials, colors, and furnishings, and collaborating with architects and contractors to ensure the successful execution of projects. I also created detailed drawings and 3D models to visualize design concepts and presented them to clients for approval. Additionally, I stayed updated on industry trends and incorporated sustainable design practices into my work."
     },
     "job-3": {
       "company": "WILD ART",
       "position": "Graphic Designer - internship",
-      "period": "Nov/2022 - Feb/2022"
+      "period": "Nov/2022 - Feb/2022",
+      "description": "As a Graphic Design intern at Wild Art, I assisted in creating visual content for various marketing materials, including social media graphics, brochures, and advertisements. I collaborated with the design team to develop concepts and layouts that aligned with the company's branding guidelines. My responsibilities included photo editing, typography selection, and preparing files for print and digital distribution. This internship provided me with valuable hands-on experience in a professional design environment and helped me enhance my skills in graphic design software such as Adobe Photoshop and Illustrator."
     }
   },
   "education": {
     "education-1": {
-      "placeTitle": "Specialized high school of natural sciences and mathematics",
-      "specialty": "Maths / IT / English / Geography",
-      "period": "2016 - 2021",
-      "image": "/images/Logos/ppmg.svg"
+      "placeTitle": "Technical university of Varna",
+      "specialty": "Master's degree in Industrial Design",
+      "period": "2025 - present",
+      "image": "/images/Logos/TU-Varna.png"
     },
     "education-2": {
       "placeTitle": "Technical university of Varna",
@@ -55,10 +58,10 @@
       "image": "/images/Logos/TU-Varna.png"
     },
     "education-3": {
-      "placeTitle": "Technical university of Varna",
-      "specialty": "Master's degree in Industrial Design",
-      "period": "2025 - present",
-      "image": "/images/Logos/TU-Varna.png"
+      "placeTitle": "Specialized high school of natural sciences and mathematics",
+      "specialty": "Maths / IT / English / Geography",
+      "period": "2016 - 2021",
+      "image": "/images/Logos/ppmg.svg"
     }
   },
   "skills": {
@@ -132,6 +135,7 @@
       "title": "Animal Hope - Varna",
       "description": "Animal Adoption Website Design for my final university graduation project, I've created a complete web design for an animal adoption platform. The work included all essential components such as user flows, style guides, low and high-fidelity wireframes, and info-architecture.",
       "image": "/images/Projects/Animal-Hope-Varna.png",
+      "type": "UX/UI Design",
       "button": {
         "firstButtonLink": "https://www.linkedin.com/feed/update/urn:li:activity:7365006558402871297/",
         "secondButtonLink": "https://lnkd.in/dc9smWYK"
@@ -141,63 +145,40 @@
       "title": "Vestimenta Lux",
       "description": "I’ve been working on a fully interactive e-commerce prototype for luxury clothing, and I’m thrilled to finally showcase it! This project is designed to offer a seamless shopping experience with elegance and functionality at its core.",
       "image": "/images/Projects/VestimentaLux.png",
+      "type": "UX/UI Design",
       "button": {
         "firstButtonLink": "https://www.linkedin.com/feed/update/urn:li:activity:7302425341392830466/",
         "secondButtonLink": "https://lnkd.in/dUMNs6FM "
       }
     },
     "projectThree": {
-      "title": "My Portfolio Site",
-      "description": "Using HTML, CSS, JS(with React framework and its UseState/UseEffects functionalities) and Material UI library,",
-      "image": "/images/Projects/portfolio.png",
+      "title": "Clients site - Jekoni",
+      "description": "Jekoni is a business specializing in metal constructions, including industrial halls and bespoke metal building projects. The website serves as an online company brochure and service catalog. ￼ The main goals of this site are to: • Present the company’s services in a clear and professional manner ",
+      "image": "/images/Projects/Jekoni.png",
+      "type": "Software Development",
       "button": {
-        "firstButtonLink": "LINK HERE",
-        "secondButtonLink": "https://github.com/JstDan/portfolio"
+        "firstButtonLink": "https://jekoni.com/",
+        "secondButtonLink": "https://github.com/JstDan/Jekoni-MetalConstructions"
       }
     },
     "projectFour": {
       "title": "Walls Calculator",
       "description": "This is a calculator built with JS that shows walls area, openings area, openings linear(m), Net Area and the waste. I've created it to calculate how much paint would a worker need to paint a speccific room. The page is built with React-Vite",
       "image": "/images/Projects/reactVite.png",
+      "type": "Software Development",
       "button": {
         "firstButtonLink": "https://wallscalculator.netlify.app/",
         "secondButtonLink": "https://github.com/JstDan/Wall-Calculator"
       }
     },
     "projectFive": {
-      "title": "Project Five",
-      "description": "A short description of the project would be written here...",
-      "image": "/images/hero-image.png",
+      "title": "My Portfolio Site",
+      "description": "Using HTML, CSS, JS(with React framework and its UseState/UseEffects functionalities) and Material UI library,",
+      "image": "/images/Projects/portfolio.png",
+      "type": "Software Development",
       "button": {
         "firstButtonLink": "LINK HERE",
-        "secondButtonLink": "LINK HERE"
-      }
-    },
-    "projectSix": {
-      "title": "Project Six",
-      "description": "A short description of the project would be written here...",
-      "image": "/images/hero-image.png",
-      "button": {
-        "firstButtonLink": "LINK HERE",
-        "secondButtonLink": "LINK HERE"
-      }
-    },
-    "projectSeven": {
-      "title": "Project Seven",
-      "description": "A short description of the project would be written here...",
-      "image": "/images/hero-image.png",
-      "button": {
-        "firstButtonLink": "LINK HERE",
-        "secondButtonLink": "LINK HERE"
-      }
-    },
-    "projectEight": {
-      "title": "Project Eight",
-      "description": "A short description of the project would be written here...",
-      "image": "/images/hero-image.png",
-      "button": {
-        "firstButtonLink": "LINK HERE",
-        "secondButtonLink": "LINK HERE"
+        "secondButtonLink": "https://github.com/JstDan/portfolio"
       }
     }
   },

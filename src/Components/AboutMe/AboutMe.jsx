@@ -6,7 +6,7 @@ import {
 } from '@mui/material';
 import info from '../../data/info.json';
 const Aboutme = () => {
-    const { title, titleDescription, subtitle, image, buttons, email, location } = info.aboutme
+    const { title, titleDescription, subtitle, buttons, email, location, image } = info.aboutme;
     return (
         <Box id="about-me" sx={{ display: 'flex', flexDirection: 'column', width: '100%', gap: { xs: '2rem', md: '3rem' } }}>
             <Typography variant='h4' style={{
