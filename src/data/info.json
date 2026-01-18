@@ -132,13 +132,13 @@
   },
   "projects": {
     "projectOne": {
-      "title": "Animal Hope - Varna",
-      "description": "Animal Adoption Website Design for my final university graduation project, I've created a complete web design for an animal adoption platform. The work included all essential components such as user flows, style guides, low and high-fidelity wireframes, and info-architecture.",
-      "image": "/images/Projects/Animal-Hope-Varna.png",
+      "title": "Vanilla Design",
+      "description": "Vanilla design is a modern and minimalist print shop website designed to provide users with a seamless experience in browsing and purchasing high-quality printed materials. The project has Low-fi and Hi-fi wireframes, user flows, style guide and complete UX/UI design. The design is slick and light, with a focus on simplicity and elegance.",
+      "image": "/images/Projects/VanillaPrints.png",
       "type": "UX/UI Design",
       "button": {
-        "firstButtonLink": "https://www.linkedin.com/feed/update/urn:li:activity:7365006558402871297/",
-        "secondButtonLink": "https://lnkd.in/dc9smWYK"
+        "firstButtonLink": "https://www.figma.com/design/44wP4t9XeNBkbHZaPLuLk3/Vanilla-design?node-id=339-1859&t=D8anLRhbGRO9zV73-1",
+        "secondButtonLink": "https://www.figma.com/design/44wP4t9XeNBkbHZaPLuLk3/Vanilla-design?node-id=339-1859&t=D8anLRhbGRO9zV73-1"
       }
     },
     "projectTwo": {
@@ -179,6 +179,16 @@
       "button": {
         "firstButtonLink": "LINK HERE",
         "secondButtonLink": "https://github.com/JstDan/portfolio"
+      }
+    },
+    "projectSix": {
+      "title": "Animal Hope - Varna",
+      "description": "Animal Adoption Website Design for my final university graduation project, I've created a complete web design for an animal adoption platform. The work included all essential components such as user flows, style guides, low and high-fidelity wireframes, and info-architecture.",
+      "image": "/images/Projects/Animal-Hope-Varna.png",
+      "type": "UX/UI Design",
+      "button": {
+        "firstButtonLink": "https://www.linkedin.com/feed/update/urn:li:activity:7365006558402871297/",
+        "secondButtonLink": "https://lnkd.in/dc9smWYK"
       }
     }
   },
