@@ -5,14 +5,15 @@ import ProjectCard from './ProjectCard/projectCard';
 import info from '../../data/info.json';
 import { Box, Typography, IconButton, Button } from "@mui/material";
 
-
-
 const Projects = () => {
     const scrollReff = useRef(null);
     const [showLeftArrow, setShowLeftArrow] = useState(false);
     const [showRightArrow, setShowRightArrow] = useState(true);
     const filterOptions = ["UX/UI Design", "Software Development"];
     const [selectedFilters, setSelectedFilters] = useState(new Set(filterOptions));
+    const projects = Object.values(info.projects || {}).filter(
+        (project) => project?.title && project?.button
+    );
 
     const toggleFilter = (filter) => {
         setSelectedFilters((prev) => {
@@ -26,7 +27,7 @@ const Projects = () => {
         });
     };
 
-    const filteredProjects = Object.values(info.projects).filter((project) => {
+    const filteredProjects = projects.filter((project) => {
         if (!project.type) return true;
         return selectedFilters.has(project.type);
     });
@@ -126,6 +127,7 @@ const Projects = () => {
                     const imageSrc = project.image?.startsWith('http')
                         ? project.image
                         : `${process.env.PUBLIC_URL}${project.image?.startsWith('/') ? '' : '/'}${project.image || ''}`;
+                    const imageFit = project.title === 'EVL-Studio' ? 'contain' : 'cover';
                     return (
                         <ProjectCard
                             key={`${project.title}-${index}`}
@@ -133,6 +135,7 @@ const Projects = () => {
                             description={project.description}
                             image={imageSrc}
                             button={project.button}
+                            imageFit={imageFit}
                         />
                     );
                 })}

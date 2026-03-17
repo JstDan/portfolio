@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typography, Box, Button } from "@mui/material";
 
-const ProjectCard = ({ title, description, image, button }) => {
+const ProjectCard = ({ title, description, image, button, imageFit = 'cover' }) => {
     return (
         <Box
             sx={{
@@ -30,16 +30,27 @@ const ProjectCard = ({ title, description, image, button }) => {
                 }
             }}
         >
-            <img
-                src={image}
-                alt={title}
-                style={{
+            <Box
+                sx={{
                     width: '100%',
-                    height: 'auto',
+                    height: '55%',
                     borderRadius: '15px',
-                    objectFit: 'cover',
+                    overflow: 'hidden',
+                    flexShrink: 0,
                 }}
-            />
+            >
+                <img
+                    src={image}
+                    alt={title}
+                    style={{
+                        width: '100%',
+                        height: '100%',
+                        objectFit: imageFit,
+                        objectPosition: 'center',
+                        display: 'block',
+                    }}
+                />
+            </Box>
             <Box>
                 <Typography variant="h6" sx={{
                     color: 'white',

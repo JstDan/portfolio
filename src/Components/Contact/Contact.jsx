@@ -5,6 +5,13 @@ import EmailIcon from '@mui/icons-material/Email';
 import info from "../../data/info.json";
 
 const Contact = () => {
+    const socials = info.socials || info.projects?.socials || {};
+    const socialLinks = [
+        { href: socials.linkedin, icon: <LinkedInIcon sx={{ color: 'white', fontSize: '2rem', transition: '0.3s', '&:hover': { color: '#0077b5' } }} />, label: 'LinkedIn' },
+        { href: socials.github, icon: <GitHubIcon sx={{ color: 'white', fontSize: '2rem', transition: '0.3s', '&:hover': { color: '#171515' } }} />, label: 'GitHub' },
+        { href: socials.gmail, icon: <EmailIcon sx={{ color: 'white', fontSize: '2rem', transition: '0.3s', '&:hover': { color: '#D44638' } }} />, label: 'Email' },
+    ].filter((item) => Boolean(item.href));
+
     const textFieldStyle = {
         width: '20rem',
         "& .MuiOutlinedInput-root": {
@@ -17,7 +24,7 @@ const Contact = () => {
     };
 
     return (
-        <Box id="contacts" sx={{ width: '100%' }}>
+        <Box id="contact" sx={{ width: '100%' }}>
             <Typography
                 variant="h4"
                 sx={{
@@ -134,15 +141,11 @@ const Contact = () => {
                         </Button>
 
                         <Box sx={{ display: 'flex', justifyContent: 'center', gap: '1.5rem' }}>
-                            <a href={info.socials.linkedin} target="_blank" rel="noopener noreferrer">
-                                <LinkedInIcon sx={{ color: 'white', fontSize: '2rem', transition: '0.3s', '&:hover': { color: '#0077b5' } }} />
-                            </a>
-                            <a href={info.socials.github} target="_blank" rel="noopener noreferrer">
-                                <GitHubIcon sx={{ color: 'white', fontSize: '2rem', transition: '0.3s', '&:hover': { color: '#171515' } }} />
-                            </a>
-                            <a href={info.socials.gmail} target="_blank" rel="noopener noreferrer">
-                                <EmailIcon sx={{ color: 'white', fontSize: '2rem', transition: '0.3s', '&:hover': { color: '#D44638' } }} />
-                            </a>
+                            {socialLinks.map((link) => (
+                                <a key={link.label} href={link.href} target="_blank" rel="noopener noreferrer" aria-label={link.label}>
+                                    {link.icon}
+                                </a>
+                            ))}
                         </Box>
                     </Box>
                 </Box>
