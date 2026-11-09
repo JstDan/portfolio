@@ -167,6 +167,28 @@
         "secondButtonLink": "https://lnkd.in/dUMNs6FM "
       }
     },
+    "projectNutrikalErp": {
+      "title": "Nutrikal ERP + CRM",
+      "description": "ERP + CRM for Nutrikal's contract manufacturing of food supplements: clients, offers, recipes, stock, production, QC, invoicing, client portal and public catalogue. Next.js + Supabase on Cloudflare Workers.",
+      "image": "/images/Projects/Nutrikal-ERP.png",
+      "imageFit": "contain",
+      "type": "Software Development",
+      "button": {
+        "firstButtonLink": "https://github.com/JstDan/Nutrikal-ERP",
+        "secondButtonLink": "https://github.com/JstDan/Nutrikal-ERP"
+      }
+    },
+    "projectAutoBlogPublisher": {
+      "title": "Auto Blog Publisher",
+      "description": "Generates, moderates, illustrates, links and publishes SEO blog articles to a Shopify store on an unattended, recurring schedule. Each run picks a pending topic, writes the article, runs an independent compliance audit, links related store products, creates a featured image and publishes via the Shopify GraphQL Admin API, with per-article error isolation.",
+      "image": "/images/Projects/Auto-Blog-Publisher.png",
+      "imageFit": "contain",
+      "type": "Software Development",
+      "button": {
+        "firstButtonLink": "https://github.com/JstDan/Auto-blog-publisher",
+        "secondButtonLink": "https://github.com/JstDan/Auto-blog-publisher"
+      }
+    },
     "projectFour": {
       "title": "Clients site - Jekoni",
       "description": "Jekoni is a business specializing in metal constructions, including industrial halls and bespoke metal building projects. The website serves as an online company brochure and service catalog. ￼ The main goals of this site are to: • Present the company’s services in a clear and professional manner ",

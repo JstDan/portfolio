@@ -127,7 +127,7 @@ const Projects = () => {
                     const imageSrc = project.image?.startsWith('http')
                         ? project.image
                         : `${process.env.PUBLIC_URL}${project.image?.startsWith('/') ? '' : '/'}${project.image || ''}`;
-                    const imageFit = project.title === 'EVL-Studio' ? 'contain' : 'cover';
+                    const imageFit = project.imageFit || (project.title === 'EVL-Studio' ? 'contain' : 'cover');
                     return (
                         <ProjectCard
                             key={`${project.title}-${index}`}
